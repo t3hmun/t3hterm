@@ -5,10 +5,10 @@ import "github.com/olekukonko/ts"
 
 // SizeAndPosition is exactly what it says it is.
 type SizeAndPosition struct {
-	Rows int
-	Cols int
-	PosX int
-	PosY int
+	Width  int
+	Height int
+	PosX   int
+	PosY   int
 }
 
 // GetSizeAndPosition talks to the system to get the current size and postion of the terminal.
